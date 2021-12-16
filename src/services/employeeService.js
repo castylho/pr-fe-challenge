@@ -8,7 +8,6 @@ export const getDepartmentCollection = () => [
   { name: "Marketing", id: 2 },
   { name: "Accounting", id: 3 },
   { name: "HR", id: 4 },
-  { name: "None", id: 5 },
 ];
 
 export function insertEmployee(data) {
