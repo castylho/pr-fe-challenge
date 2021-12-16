@@ -40,6 +40,8 @@ Task: add a department filter dropdown
 
 Consider both placement and how we migh connect the UI with the data.
 
+Use the MUI v4 documentation to find a correct component for this task.
+
 User story:
 
 ```
