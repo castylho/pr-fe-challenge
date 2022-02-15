@@ -55,6 +55,8 @@ What could be the issue
 
 ## Department filter dropdown
 
+![](docs/media/where-filters-should-go.jpg)
+
 Task: add a department filter dropdown
 
 Consider both placement and how we migh connect the UI with the data.
