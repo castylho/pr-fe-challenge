@@ -72,3 +72,9 @@ Then: they select 'Marketing' from a 'Department' dropdown
 
 Then: the employee list is filtered by that department
 ```
+
+## Bonus task
+
+![](docs/media/bonus-task.png)
+
+By default sort the employee list in accending alphabetical order on the `Employee name` column.
