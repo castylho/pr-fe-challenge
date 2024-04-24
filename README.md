@@ -1,6 +1,6 @@
 # Welcome
 
-Employee dashboard technical pairing challenge
+Employee dashboard technical challenge
 
 ![](docs/media/gifs/employee-dashboard-demo.gif)
 
@@ -61,7 +61,7 @@ Task: add a department filter dropdown
 
 Consider both placement and how we migh connect the UI with the data.
 
-Use the MUI v4 documentation to find a correct component for this task.
+Use the MUI documentation to find a correct component for this task.
 
 User story:
 
@@ -73,8 +73,16 @@ Then: they select 'Marketing' from a 'Department' dropdown
 Then: the employee list is filtered by that department
 ```
 
-## Bonus task
+## Delete Multiple Users
 
-![](docs/media/bonus-task.png)
+Task: delete multiple users
 
-By default sort the employee list in accending alphabetical order on the `Employee name` column.
+User story:
+
+```
+Given: some departments have large numbers of users to manage
+
+Then: they want to be able to slect multiple users
+
+Then: they should be able to delete that selection
+```
