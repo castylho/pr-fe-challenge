@@ -4,6 +4,25 @@ Employee dashboard technical challenge
 
 ![](docs/media/gifs/employee-dashboard-demo.gif)
 
+# Instructions
+
+Clone the repository and push to a personal git repository (you will need to create the empty repository before pushing):
+
+```sh
+git clone https://<TOKEN_NAME>:<TOKEN_PASSWORD>/perceptual-robotics/reporting-group/recruitment-tech-challenges.git
+```
+
+```sh
+git remote add github git@github.com:<USERNAME>/pr-fe-challenge.git
+```
+
+```sh
+git push --mirror github
+```
+
+Please remember to commit regularly and share a link to the completed personal repository when you have finished.
+
+
 
 # Install 
 
@@ -75,14 +94,14 @@ Then: the employee list is filtered by that department
 
 ## Delete Multiple Users
 
-Task: delete multiple users
+Task: delete multiple selected users
 
 User story:
 
 ```
 Given: some departments have large numbers of users to manage
 
-Then: they want to be able to slect multiple users
+Then: they want to be able to select multiple users
 
 Then: they should be able to delete that selection
 ```
