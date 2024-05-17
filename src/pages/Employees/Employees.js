@@ -37,6 +37,7 @@ const useStyles = makeStyles((theme) => ({
 }));
 
 const headCells = [
+  { id: "isSelected", label: "" },
   { id: "fullName", label: "Employee Name" },
   { id: "email", label: "Email Address (Personal)" },
   { id: "mobile", label: "Mobile Number" },
@@ -151,6 +152,9 @@ export default function Employees() {
           <TableBody>
             {recordsAfterPagingAndSorting().map((item) => (
               <TableRow key={item.id}>
+                <TableCell>
+                  <Controls.Checkbox name="isSelected" onChange={console.log} />
+                </TableCell>
                 <TableCell>{item.fullName}</TableCell>
                 <TableCell>{item.email}</TableCell>
                 <TableCell>{item.mobile}</TableCell>
